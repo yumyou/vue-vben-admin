@@ -158,12 +158,12 @@ interface VbenLayoutProps {
   sideCollapseWidth?: number;
   /**
    * tab是否可见
-   * @default true
+   * @default false
    */
   tabbarEnable?: boolean;
   /**
    * tab高度
-   * @default 30
+   * @default 0
    */
   tabbarHeight?: number;
   /**

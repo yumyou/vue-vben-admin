@@ -10,32 +10,24 @@ const routes: RouteRecordRaw[] = [
       order: 1000,
       title: $t('demos.title'),
     },
-    name: 'Demos',
-    path: '/demos',
+    name: 'Order-admin',
+    path: '/orderManagement',
     children: [
       {
         meta: {
-          title: $t('demos.naive'),
+          title: $t('demos.elementPlus'),
         },
         name: 'NaiveDemos',
-        path: '/demos/naive',
-        component: () => import('#/views/demos/naive/index.vue'),
-      },
-      {
-        meta: {
-          title: $t('demos.table'),
-        },
-        name: 'Table',
-        path: '/demos/table',
-        component: () => import('#/views/demos/table/index.vue'),
+        path: '/demos/element',
+        component: () => import('#/views/order/detail.vue'),
       },
       {
         meta: {
           title: $t('demos.form'),
         },
-        name: 'Form',
+        name: 'BasicForm',
         path: '/demos/form',
-        component: () => import('#/views/demos/form/basic.vue'),
+        component: () => import('#/views/order/detail.vue'),
       },
     ],
   },

@@ -335,13 +335,13 @@ const headerSlots = computed(() => {
       </VbenLogo>
     </template>
 
-    <template #tabbar>
+    <!-- <template #tabbar>
       <LayoutTabbar
         v-if="preferences.tabbar.enable"
         :show-icon="preferences.tabbar.showIcon"
         :theme="theme"
       />
-    </template>
+    </template> -->
 
     <!-- 主体内容 -->
     <template #content>

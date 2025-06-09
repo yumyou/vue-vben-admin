@@ -10,5 +10,16 @@
     "title": "Dashboard",
     "analytics": "Analytics",
     "workspace": "Workspace"
+  },
+  "order": {
+    "detail": "Order Details",
+    "list": "Order List",
+    "orderInfo": "Order Information",
+    "productList": "Product List",
+    "logistics": "Logistics Information",
+    "payment": "Payment Information",
+    "progress": "Order Progress",
+    "print": "Print Order",
+    "back": "Back to List"
   }
 }

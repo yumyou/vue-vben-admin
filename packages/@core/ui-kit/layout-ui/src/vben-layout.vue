@@ -58,8 +58,8 @@ const props = withDefaults(defineProps<Props>(), {
   sidebarTheme: 'dark',
   sidebarWidth: 180,
   sideCollapseWidth: 60,
-  tabbarEnable: true,
-  tabbarHeight: 40,
+  tabbarEnable: false,
+  tabbarHeight: 0,
   zIndex: 200,
 });
 
@@ -112,9 +112,9 @@ const headerWrapperHeight = computed(() => {
   if (props.headerVisible && !props.headerHidden) {
     height += props.headerHeight;
   }
-  if (props.tabbarEnable) {
-    height += props.tabbarHeight;
-  }
+  // if (props.tabbarEnable) {
+  //   height += props.tabbarHeight;
+  // }
   return height;
 });
 
